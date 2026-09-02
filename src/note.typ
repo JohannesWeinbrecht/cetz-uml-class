@@ -1,3 +1,6 @@
+#import "@preview/cetz:0.5.2"
+#let padding = 0.5em
+
 #let note(
   position,
   body,
