@@ -32,6 +32,15 @@
   )
 }
 
+#let realization(
+  ..points,
+) = {
+  cetz.draw.line(
+    ..points,
+    stroke: (paint: black, dash: "dashed"),
+    mark: (end: ">", scale: 2),
+  )
+}
 
 #let composition(
   ..points,
